@@ -32,16 +32,33 @@
 						<h3>Beim Bearbeiten</h3>
 						<ul>
 							<li>CTRL-D: Duplizieren von Objekten. Bei mehrfacher Ausführung wird äquidistant dubliziert</li>
-							<li>CTRL-B/U/I: Schnellformatierung fett/unterstrichen/kursiv</li>
-							<li>CTRL-L/E/R: Schnellformatierung linkbündig/zentriert/rechtsbündig</li>
+							<li>CTRL-SHIFT-F/I/UCTRL-B/I/U: Schnellformatierung fett/kursiv/kursiv</li>
+							<li>CTRL(SHIFT-)-L/E/R: Schnellformatierung linksbündig/zentriert/rechtsbündig</li>
 						</ul>
 					</section>
 					<section>
 						<h3>Beim Bearbeiten mit Maus</h3>
+						<h6>Verschieben</h6>
 						<ul>
-							<li>Maus-X: Objekt kopieren und verschieben</li>
-							<li>Maus-Y: Objekt verschieben/anpassen ohne Anker</li>
-							<li>Maus-Z: Objektgröße ändern, Skalierung beibehalten</li>
+							<li>Maus-CTRL: Objekt kopieren und verschieben</li>
+							<li>Maus-SHIFT: Objekt nur in eine Richtung verschieben</li>
+							<li>Maus-ALT: Objekt verschieben/anpassen ohne Anker</li>
+						</ul>
+					</section>
+					<section>
+						<h3>Beim Bearbeiten mit Maus</h3>
+						<h6>Größe ändern</h6>
+						<ul>
+							<li>Maus-CTRL: Objektmitte bleit gleich</li>
+							<li>Maus-SHIFT: Objektgröße ändern, Skalierung beibehalten</li>
+							<li>Maus-ALT: Objekt verschieben/anpassen ohne Anker</li>
+						</ul>
+					</section>
+					<section>
+						<h3>Eigene Shortcuts einstellen</h3>
+						<ul>
+							<li>Beliebige Elemente in Schnellzugriff (über Ribbon, Dropdown rechts) organisieren und <b>sortieren</b></li>
+							<li>ALT+ZAHL, um Befehl an Position ZAHL auszuführen</li>
 						</ul>
 					</section>
 					<section>
@@ -50,11 +67,12 @@
 						<ul>
 							<li>Zahl + ENTER: Springe direkt zu angegeben Folie</li>
 							<li>b/w: Schalte Präsentation schwarz/weiß</li>
-							<li>H: Gehe zur nächsten Folie, auch wenn sie versteckt ist</li>
+							<li>H: Gehe zur nächsten Folie, wenn sie versteckt ist (sonst passiert nichts)</li>
 							<li>CTRL-L: Toggle Laserpointer (mac: CMD-L)</li>
 							<li>CTRL-P: Toggle Stift (pen) (mac: CMD-P)</li>
-							<li>CTRL-E: Alle Markierungen löschen (mac: CMD-E)</li>
-							<li>CTRL-A: Toggle Mauszeiger (mac: CMD-A)</li>
+							<li>CTRL-E: Toggle Radiergummi (eraser) (mac: CMD-P)</li>
+							<li>E: Alle Markierungen löschen (mac: E)</li>
+							<li>CTRL-M: Toggle alle Markierungen (mac: CMD-M)</li>
 						</ul>
 					</section>
 				</section>
@@ -103,14 +121,18 @@
 						<h3>Angepasste Schriftart einbetten</h3>
 						<p>Notwendig, wenn eine PPTX an Personen verschickt wird, die in der Datei verwendete Schriftarten nicht installiert haben</p>
 						<ul>
-							<li>Win: File > Options > Send > Embed fonts in the file</li>
+							<li>Win: File > Options > Save > Embed fonts in the file</li>
 							<li>mac: PowerPoint > Preferences > Save > Font Embedding</li>
 						</ul>
 					</section>
 					<section>
 						<h3>Bilder komprimieren</h3>
 						<p>Niemand mag Mails mit 15 MB für 3 Folien im Anhang</p>
-						<p>TBD</p>
+						<ol>
+							<li>Bild auswählen</li>
+							<li>Ribbon > Format > Compress Image</li>
+							<li>Haken "Nur dieses Bild übernehmen" aus</li>
+						</ol>
 					</section>
 				</section>
 				<section>
@@ -133,13 +155,13 @@
 						<ul>
 							<li>Legt bei Doppelklick neue Präsentation an und muss nicht jedes Mal kopiert werden</li>
 							<li>Bleibt (normalerweise) unverändert, wenn deine Präsentation angepasst wird</li>
-							<li>An der richtigen Stelle abgelegt, kannst PP im Wizard eine neue Präsentation mit der Vorlage erstellen</li>
+							<li>An der richtigen Stelle abgelegt, kann PP im Wizard eine neue Präsentation mit der Vorlage erstellen</li>
 						</ul>
 					</section>
 					<section>
 						<h3>POTX</h3>
 						<ul>
-							<li>Win: <pre><code>C:\Users\[User Name]\AppData\Roaming\Microsoft\Templates</code></pre> oder Nachschauen unter File > Options > Advanced > File Locations > User Templates</li>
+							<li>Win: <pre><code>C:\Users\[User Name]\Dokumente\Benutzerdefinierte Office-Vorlagen</code></pre> oder als POTX speichern, dann springt Wizard in den richtigen Ordner</li>
 							<li>mac: <pre><code>/Users/[username]/Library/Application Support/Microsoft/Office/User Templates/My Templates</code></pre> (Finder + Option halten, dann erscheint unter Go To der Ordner Library)</li>
 						</ul>
 					</section>
@@ -178,6 +200,8 @@
 							<li><a href="https://unsplash.com" target="_blank">unsplash</a></li>
 							<li><a href="https://pexels.com" target="_blank">Pexels</a></li>
 							<li><a href="https://pixabay.com" target="_blank">Pixabay</a></li>
+							<li><a href="https://freepik.com" target="_blank">Freepik</a></li>
+							<li><a href="https://freepiker.com" target="_blank">Freepiker</a></li>
 							<!-- <li><a href="#" target="_blank"></a></li> -->
 						</ul>
 						<p style="font-size: 60%;">Keine Garantie ;)</p>
@@ -188,6 +212,12 @@
 							target="_blank"
 						>How to choose the colors for your data visualizations (Medium)</a>
 					</section>
+				</section>
+				<section>
+					<h3>The end... and the beginning!</h3>
+					<p>Die Präsentation ist als lebendiges Dokument gedacht! &#10145; Lesezeichen</p>
+					<iframe src="https://giphy.com/embed/ZF8GoFOeBDwHFsVYqt"></iframe>
+					<p>Gebt gerne Feedback, um mehr hilfreiche Tipps zu sammeln und nachträglich anzusehen!</p>
 				</section>
 			</div>
 		</div>
